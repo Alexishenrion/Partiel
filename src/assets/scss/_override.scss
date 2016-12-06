@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body{
+  font-family: 'EB Garamond', serif;
+  margin: 0 auto;
+}
+
+h2{
+  font-family: 'HKGroteskMedium', sans-serif;
+  font-size: 30px;
+}
+
+h3{
+  font-family: 'HKGroteskBold', sans-serif;
+  font-size: 32px;
+}
+
+a:active{
+  background-color: blue;
+}
+
+
+////////////////
+//// HEADER ////
+////////////////
+
+header{
+
+  img{
+    margin-top: 15px;
+    height: 174px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  nav{
+    margin-bottom: 50px;
+  }
+  ul{
+    margin-bottom: 50px;
+  }
+  nav ul li{
+    font-family: 'HKGroteskMedium', sans-serif;
+    font-size: 20px;
+  }
+  a:hover{
+    color: $green;
+  }
+
+}
+
+////////////////
+//// HEADER ////
+////////////////
+
+
+
+////////////////
+//// SLIDER ////
+////////////////
+
+.orbit{
+  ul li figcaption{
+    margin-bottom: 50px;
+    background: none;
+  }
+
+  ul li figcaption .autre{
+    margin-bottom: 150px;
+    background: none;
+  }
+
+  ul li figcaption h4{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    color: #fff;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  ul li figcaption p{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  ul li figcaption h5{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  ul li figcaption #button{
+    padding-top: 100px;
+  }
+
+  ul li figcaption a{
+    font-family: 'HKGroteskBold', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    background: #46cc80;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 30px 1px rgba(76,206,132,0.4);
+    -moz-box-shadow: 0px 0px 30px 1px rgba(76,206,132,0.4);
+    box-shadow: 0px 0px 30px 1px rgba(76,206,132,0.4);
+  }
+
+}
+
+////////////////
+//// SLIDER ////
+////////////////
+
+
+
+/////////////////
+//// CONTENT ////
+/////////////////
+
+  .arrow{
+    position: fixed;
+    top: 500px;
+    right: 1em;
+}
+
+
+section{
+  padding-top: 75px;
+  width: 80%;
+  margin: 0 auto;
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1{
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: 'HKGroteskBold', sans-serif;
+  }
+
+  .para{
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  p{
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 60px;
+  }
+  hr {
+    width:150px;
+    height:4px;
+    background: $green;
+    margin: 0 auto;
+  }
+
+  .titre2{
+    padding-top: 75px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: 'HKGroteskBold', sans-serif;
+  }
+  .para1{
+    width: 80%;
+    text-align: justify;
+  }
+  .line2{
+    width: 50%;
+    height: 2px;
+    background: $green;
+    margin: 0 auto;
+    position: relative;;
+  }
+  .icon{
+    position: relative;
+    height: auto;
+    width: auto;
+  }
+  .para2{
+    width: 80%;
+    text-align: justify;
+  }
+
+  #formules{
+    margin-top: 85px;
+  }
+
+  .formule1{
+    height: 450px;
+  }
+
+  .formule2{
+    height: 450px;
+  }
+
+  .formule3{
+    height: 450px;
+  }
+
+  .magique{
+    font-family: 'HKGroteskMedium', sans-serif;
+    font-size: 26px;
+    color: #465fcc;
+  }
+
+  .pformule{
+    font-family: 'HKGroteskLight', sans-serif;
+    font-size: 20px;
+  }
+
+  .prix{
+    pointer-events:none;
+    font-family: 'HKGroteskRegular', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    background: #4cce84;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 30px 1px rgba(76,206,132,0.4);
+    -moz-box-shadow: 0px 0px 30px 1px rgba(76,206,132,0.4);
+    box-shadow: 0px 0px 30px 1px rgba(76,206,132,0.4);
+  }
+
+  .prixMagique{
+    pointer-events:none;
+    font-family: 'HKGroteskRegular', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    background: #465fcc;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 30px 1px rgba(70,94,204,0.4);
+    -moz-box-shadow: 0px 0px 30px 1px rgba(70,94,204,0.4);
+    box-shadow: 0px 0px 30px 1px rgba(70,94,204,0.4);
+  }
+
+  .contact{
+    margin-top: 75px;
+  }
+
+  .pcontact{
+    font-size: 24px;
+  }
+}
+
+/////////////////
+//// CONTENT ////
+/////////////////
+
+
+/////////////////
+//// FOOTER /////
+/////////////////
+
+
+footer{
+  margin-top: 150px;
+
+  a:hover{
+    color: #4cce84;
+    transition: 0,4s;
+  }
+
+  .pfooter{
+    font-family: 'HKGroteskRegular', sans-serif;
+    font-size: 14px;
+  }
+}
+
+
+/////////////////
+//// FOOTER /////
+/////////////////
